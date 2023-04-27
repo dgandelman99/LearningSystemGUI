@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.MainMenuActions.CourseExplorer.AssignmentManager.AssignmentManagerPage"
+             Title="AssignmentManagerPage">
+    <StackLayout>
+        <Label Text="Course Content Manager" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" />
+        <Button x:Name="DisplayAssignmentsInfoButton" Text="Assignment Manager" Clicked="DisplayAssignmentsInfoButton_Clicked" />
+        <Button x:Name="ModuleManagerButton" Text="Module Manager" Clicked="ModuleManagerButton_Clicked" />
+        <Button Text="Announcement Manager" Clicked="ManageAnnouncementsButton_Clicked" />
+        <Button x:Name="ReturnButton" Text="Back" Clicked="ReturnButton_Clicked" />
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.MainMenuActions.CourseExplorer.AssignmentManager.DisplayAssignmentsInfoPage"
+             Title="DisplayAssignmentsInfoPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="refresh.png" Clicked="RefreshButton_Clicked" />
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <Label Text="Assignments:" FontAttributes="Bold" />
+<ListView x:Name="AssignmentsInfoListView" HasUnevenRows="True">
+    <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0"
+                               Text="{Binding DisplayInfo}" FontAttributes="Bold" VerticalOptions="Center">
+                                <Label.Triggers>
+                                    <DataTrigger TargetType="Label" Binding="{Binding IsGroupHeader}" Value="True">
+                                        <Setter Property="Text" Value="{Binding GroupHeader}" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Label" Binding="{Binding IsAssignment}" Value="True">
+                                        <Setter Property="Text" Value="{Binding AssignmentInfo}" />
+                                    </DataTrigger>
+                                </Label.Triggers>
+                            </Label>
+
+                        </Grid>
+            </ViewCell>
+        </DataTemplate>
+    </ListView.ItemTemplate>
+</ListView>
+        <Button x:Name="GradeAssignmentButton" Text="Grade Selected Assignment" HorizontalOptions="Center" Clicked="GradeAssignmentButton_Clicked" />
+        <Button x:Name="UpdateButton" Text="Update Selected" HorizontalOptions="Center" Clicked="UpdateButton_Clicked" />
+        <Button x:Name="DeleteButton" Text="Delete Selected" HorizontalOptions="Center" Clicked="DeleteButton_Clicked" />
+        <Button Text="Create Group" Clicked="CreateGroupButton_Clicked" />
+        <Button x:Name="CreateAssignmentButton" Text="Create Assignment" Clicked="CreateAssignmentButton_Clicked" />
+        <Button Text="Back" Clicked="BackButton_Clicked" Margin="0,10,0,0"/>
+    </StackLayout>
+</ContentPage>

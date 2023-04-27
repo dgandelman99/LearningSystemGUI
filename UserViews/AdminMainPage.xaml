@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.UserViews.AdminMainPage"
+             Title="AdminMainPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Danvas 3 - Learning Management System" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,20"/>
+            <Label Text="ADMIN VIEW" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,20"/>
+            <Button Text="Switch User" x:Name="SwitchUserButton" HorizontalOptions="End" Clicked="SwitchUserButton_Clicked" />
+            <Button Text="Create a course" Clicked="CreateCourse_Clicked" />
+            <Button Text="Create a student" Clicked="CreateStudent_Clicked" />
+            <Button Text="List all courses" Clicked="ListAllCoursesButton_Clicked"/>
+            <Button Text="Search for courses" Clicked="SearchCoursesButton_Clicked"/>
+            <Button Text="List all students" Clicked="ListAllPeopleButton_Clicked" />
+            <Button Text="Search People" Clicked="SearchPeopleButton_Clicked"/>
+            <Button Text="Create Staff" Clicked="CreateStaffButton_Clicked"/>
+            <Button Text="List All Staff" Clicked="ListAllStaffButton_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

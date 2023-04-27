@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.UserOperations.UserSelectionPage"
+             Title="UserSelectionPage">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Select User Type" FontSize="24" />
+        <Button Text="Student" x:Name="StudentButton" Clicked="StudentButton_Clicked" />
+        <Button Text="Instructor" x:Name="InstructorButton" Clicked="InstructorButton_Clicked" />
+        <Button Text="TA" x:Name="TAButton" Clicked="TAButton_Clicked" />
+        <Button Text="Admin" x:Name="AdminButton" Clicked="AdminButton_Clicked" />
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,1 @@
+C:\Users\dgand\source\repos\LearningSystemGUI\LearningSystemGUI.csproj;x64

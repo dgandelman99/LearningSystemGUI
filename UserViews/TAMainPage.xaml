@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.UserViews.TAMainPage"
+             Title="TAMainPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Danvas 3 - Learning Management System" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,20"/>
+            <Label Text="TA VIEW" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,20"/>
+            <Label x:Name="TaInfoLabel" FontSize="18" />
+            <Label Text="Current Semester Courses:" FontAttributes="Bold" />
+            <ListView x:Name="CurrentSemesterCoursesListView" ItemSelected="CurrentSemesterCoursesListView_ItemSelected" />
+            <Button Text="View Previous Semester Courses" Clicked="PreviousSemesterCoursesButton_Clicked" />
+            <Button Text="Switch User" Clicked="SwitchUserButton_Clicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

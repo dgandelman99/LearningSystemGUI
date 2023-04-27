@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.MainMenuActions.UpdateStaffPage"
+             Title="UpdateStaffPage">
+    <StackLayout Padding="20">
+        <Label Text="Update Person" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <Label Text="Name" />
+        <Entry x:Name="nameEntry" Text="{Binding Name}"/>
+        <Label Text="EMPLID" />
+        <Entry x:Name="idEntry" Text="{Binding ID}" IsEnabled="False"/>
+        <Label Text="Classification" />
+        <Picker x:Name="classificationPicker" SelectedIndex="{Binding ClassificationIndex}">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>TA</x:String>
+                    <x:String>Instructor</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <Button Text="Update" Clicked="UpdateButton_Clicked"/>
+        <Button Text="Cancel" Clicked="CancelButton_Clicked"/>
+    </StackLayout>
+</ContentPage>

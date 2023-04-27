@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.UserViews.CourseStudentEnd"
+             Title="CourseStudentEnd">
+    <StackLayout>
+    <ScrollView>
+        <StackLayout>
+            <Label x:Name="CourseName" FontSize="Title" />
+            <Label x:Name="CourseCode" FontSize="Title" />
+            <Label x:Name="SemesterLabel" />
+            <Label x:Name="RoomLocation" />
+            <Label x:Name="CourseDescription" />
+
+            <Label Text="Announcements" FontSize="Large" />
+            <ListView x:Name="AnnouncementsListView" />
+
+            <Label Text="Modules" FontSize="Large" />
+            <ListView x:Name="ModulesListView" />
+
+            <Label Text="Assignments" FontSize="Large" />
+            <ListView x:Name="AssignmentsListView" />
+        </StackLayout>
+    </ScrollView>
+    <Button Text="Back" Clicked="BackButton_Clicked" Margin="0,10,0,0"/>
+        </StackLayout>
+</ContentPage>

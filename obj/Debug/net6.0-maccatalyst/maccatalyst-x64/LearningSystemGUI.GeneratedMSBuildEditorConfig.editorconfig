@@ -1,0 +1,238 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LearningSystemGUI
+build_property.ProjectDir = C:\Users\dgand\source\repos\LearningSystemGUI\
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/AddStaffPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.AddStaffPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\AddStaffPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\AddStaffPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AnnouncementManager/AnnouncementsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AnnouncementManager.AnnouncementsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AnnouncementManager\AnnouncementsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AnnouncementManager\AnnouncementsPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AnnouncementManager/CreateAnnouncementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AnnouncementManager.CreateAnnouncementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AnnouncementManager\CreateAnnouncementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AnnouncementManager\CreateAnnouncementPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AnnouncementManager/UpdateAnnouncementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AnnouncementManager.UpdateAnnouncementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AnnouncementManager\UpdateAnnouncementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AnnouncementManager\UpdateAnnouncementPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AssignmentManager/AssignmentManagerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AssignmentManager.AssignmentManagerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AssignmentManager\AssignmentManagerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AssignmentManager\AssignmentManagerPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AssignmentManager/CreateAssignmentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AssignmentManager.CreateAssignmentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AssignmentManager\CreateAssignmentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AssignmentManager\CreateAssignmentPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AssignmentManager/CreateGroupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AssignmentManager.CreateGroupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AssignmentManager\CreateGroupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AssignmentManager\CreateGroupPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AssignmentManager/DisplayAssignmentsInfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AssignmentManager.DisplayAssignmentsInfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AssignmentManager\DisplayAssignmentsInfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AssignmentManager\DisplayAssignmentsInfoPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AssignmentManager/UpdateAssignmentGroupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AssignmentManager.UpdateAssignmentGroupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AssignmentManager\UpdateAssignmentGroupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AssignmentManager\UpdateAssignmentGroupPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/AssignmentManager/UpdateAssignmentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.AssignmentManager.UpdateAssignmentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\AssignmentManager\UpdateAssignmentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\AssignmentManager\UpdateAssignmentPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/CourseDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.CourseDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\CourseDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\CourseDetailsPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/ListAllCoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.ListAllCoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\ListAllCoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\ListAllCoursesPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/ModuleManager/CreateModulePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.ModuleManager.CreateModulePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\ModuleManager\CreateModulePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\ModuleManager\CreateModulePage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/ModuleManager/ModuleManagerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.ModuleManager.ModuleManagerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\ModuleManager\ModuleManagerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\ModuleManager\ModuleManagerPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/ModuleManager/UpdateModulePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.ModuleManager.UpdateModulePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\ModuleManager\UpdateModulePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\ModuleManager\UpdateModulePage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/SearchCoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.SearchCoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\SearchCoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\SearchCoursesPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CourseExplorer/UpdateCoursePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CourseExplorer.UpdateCoursePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CourseExplorer\UpdateCoursePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CourseExplorer\UpdateCoursePage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CreateCoursePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CreateCoursePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CreateCoursePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CreateCoursePage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/CreateStudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.CreateStudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\CreateStudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\CreateStudentPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/ListAllPeoplePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.ListAllPeoplePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\ListAllPeoplePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\ListAllPeoplePage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/ListAllStaffPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.ListAllStaffPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\ListAllStaffPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\ListAllStaffPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/ManagePersonCoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.ManagePersonCoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\ManagePersonCoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\ManagePersonCoursesPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/PersonDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.PersonDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\PersonDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\PersonDetailsPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/SearchPeoplePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.SearchPeoplePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\SearchPeoplePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\SearchPeoplePage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/UpdatePersonPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.UpdatePersonPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\UpdatePersonPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\UpdatePersonPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainMenuActions/UpdateStaffPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainMenuActions.UpdateStaffPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainMenuActions\UpdateStaffPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainMenuActions\UpdateStaffPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/UserViews/AdminMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.UserViews.AdminMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UserViews\AdminMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UserViews\AdminMainPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/UserViews/CourseStudentEnd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.UserViews.CourseStudentEnd.xaml
+build_metadata.AdditionalFiles.TargetPath = UserViews\CourseStudentEnd.xaml
+build_metadata.AdditionalFiles.RelativePath = UserViews\CourseStudentEnd.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/UserViews/InstructorMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.UserViews.InstructorMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UserViews\InstructorMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UserViews\InstructorMainPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/UserViews/PreviousSemesterCoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.UserViews.PreviousSemesterCoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UserViews\PreviousSemesterCoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UserViews\PreviousSemesterCoursesPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/UserViews/StudentMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.UserViews.StudentMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UserViews\StudentMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UserViews\StudentMainPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/UserViews/TAMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.UserViews.TAMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UserViews\TAMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UserViews\TAMainPage.xaml
+
+[C:/Users/dgand/source/repos/LearningSystemGUI/UserViews/UserSelectionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LearningSystemGUI.UserViews.UserSelectionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UserViews\UserSelectionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UserViews\UserSelectionPage.xaml

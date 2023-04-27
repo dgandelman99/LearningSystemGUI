@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.MainMenuActions.CourseExplorer.ListAllCoursesPage"
+             Title="ListAllCoursesPage">
+    <StackLayout Padding="20">
+        <Label Text="List All Courses" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <ListView x:Name="coursesListView" ItemsSource="{Binding Courses}" ItemSelected="CoursesListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="{Binding Code}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,20,0,0">
+            <Button x:Name="previousButton" Text="Previous" Clicked="PreviousButton_Clicked"/>
+            <Label x:Name="pageNumberLabel" Text="{Binding CurrentPage}" HorizontalOptions="Center" VerticalOptions="Center" Margin="10,0"/>
+            <Button x:Name="nextButton" Text="Next" Clicked="NextButton_Clicked"/>
+        </StackLayout>
+        <Button Text="Back" Clicked="BackButton_Clicked" Margin="0,10,0,0"/>
+    </StackLayout>
+</ContentPage>

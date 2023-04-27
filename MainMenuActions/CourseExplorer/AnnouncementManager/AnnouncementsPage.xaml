@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.MainMenuActions.CourseExplorer.AnnouncementManager.AnnouncementsPage"
+             Title="AnnouncementsPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="refresh.png" Clicked="RefreshButton_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="AnnouncementsListView" ItemSelected="AnnouncementsListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Title}" FontAttributes="Bold" />
+                                <Label Text="{Binding Content}" />
+                                <Label Text="{Binding PublishDate}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Create Announcement" Clicked="CreateAnnouncementButton_Clicked" />
+            <Button Text="Update Announcement" Clicked="UpdateAnnouncementButton_Clicked" />
+            <Button Text="Delete Announcement" Clicked="DeleteAnnouncementButton_Clicked" />
+            <Button Text="Back" Clicked="BackButton_Clicked" Margin="0,10,0,0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.MainMenuActions.AddStaffPage"
+             Title="AddStaff">
+    <StackLayout>
+        <Label Text="Name:" FontAttributes="Bold" />
+        <Entry x:Name="NameEntry" Placeholder="Enter name" />
+
+        <Label Text="Classification:" FontAttributes="Bold" />
+        <Picker x:Name="ClassificationPicker" Title="Classification">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>TA</x:String>
+                    <x:String>Instructor</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <Button Text="Add Staff Member" Clicked="AddStaffButton_Clicked" Margin="0,10,0,0"/>
+        <Button Text="Back" Clicked="BackButton_Clicked" Margin="0,10,0,0"/>
+    </StackLayout>
+</ContentPage>

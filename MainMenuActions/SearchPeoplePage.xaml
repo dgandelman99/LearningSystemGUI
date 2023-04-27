@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.MainMenuActions.SearchPeoplePage"
+             Title="SearchPeoplePage">
+    <StackLayout Padding="20">
+        <Label Text="Search People" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <StackLayout Orientation="Horizontal">
+            <Entry x:Name="searchQueryEntry" Placeholder="Search query"/>
+            <Button Text="Search" Clicked="SearchButton_Clicked"/>
+        </StackLayout>
+        <ListView x:Name="searchResultsListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Name}" VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                            <Label Text="{Binding Id}" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
+                            <Button Text="Manage Courses" Clicked="ManageCoursesButton_Clicked" CommandParameter="{Binding .}" VerticalOptions="Center" HorizontalOptions="End" WidthRequest="150"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Back" Clicked="BackButton_Clicked" Margin="0,10,0,0"/>
+    </StackLayout>
+</ContentPage>

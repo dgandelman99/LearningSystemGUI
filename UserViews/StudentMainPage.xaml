@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystemGUI.UserViews.StudentMainPage"
+             Title="StudentMainPage">
+    <StackLayout>
+        <Label Text="Danvas 3 - Learning Management System" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <Label Text="STUDENT VIEW" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <Label x:Name="StudentInfoLabel" FontSize="Large" />
+        <Label Text="Current Semester Courses" FontSize="Large" />
+        <Button Text="Switch User" x:Name="SwitchUserButton" HorizontalOptions="End" Clicked="SwitchUserButton_Clicked" />
+        <ListView x:Name="CurrentSemesterCoursesListView" ItemSelected="CurrentSemesterCoursesListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="{Binding Code}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="View Previous Semester Courses" Clicked="ViewPreviousSemesterCoursesButton_Clicked" />
+    </StackLayout>
+</ContentPage>
