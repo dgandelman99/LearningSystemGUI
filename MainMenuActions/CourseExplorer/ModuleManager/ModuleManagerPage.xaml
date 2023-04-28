@@ -6,18 +6,49 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="refresh.png" Clicked="RefreshButton_Clicked" />
     </ContentPage.ToolbarItems>
-    <StackLayout>
-        <Label Text="Modules" FontAttributes="Bold" FontSize="Large" />
-        <ListView x:Name="ModulesListView">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding Name}" Detail="{Binding Description}" />
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        <Button Text="Create Module" Clicked="CreateModuleButton_Clicked" />
-        <Button Text="Update Module" Clicked="UpdateModuleButton_Clicked" />
-        <Button Text="Delete Module" Clicked="DeleteModuleButton_Clicked" />
-        <Button Text="Back" Clicked="BackButton_Clicked" Margin="0,10,0,0"/>
-    </StackLayout>
+     <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Left side: Module management -->
+            <StackLayout Grid.Column="0" Grid.Row="0" Spacing="10" Padding="10">
+                <Label Text="Modules" FontAttributes="Bold" FontSize="Large" />
+                <ListView x:Name="ModulesListView" ItemTapped="ModulesListView_ItemTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Name}" Detail="{Binding Description}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout Grid.Column="0" Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End">
+                <Button Text="Create Module" Clicked="CreateModuleButton_Clicked" />
+                <Button Text="Update Module" Clicked="UpdateModuleButton_Clicked" />
+                <Button Text="Delete Module" Clicked="DeleteModuleButton_Clicked" />
+            </StackLayout>
+
+            <!-- Right side: ContentItem management -->
+            <StackLayout Grid.Column="1" Grid.Row="0" Spacing="10" Padding="10">
+                <Label Text="Content Items" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" />
+                <ListView x:Name="ContentItemsListView" />
+            </StackLayout>
+            <StackLayout Grid.Column="1" Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End">
+            <Button x:Name="AddContentItemButton" Text="Add Content Item" Clicked="AddContentItemButton_Clicked" />
+            <Button x:Name="UpdateContentItemButton" Text="Update Content Item" Clicked="UpdateContentItemButton_Clicked" />
+            <Button x:Name="DeleteContentItemButton" Text="Delete Content Item" Clicked="DeleteContentItemButton_Clicked" />
+            </StackLayout>
+
+            <!-- BackButton -->
+            <StackLayout Grid.Column="2" Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End">
+                <Button x:Name="BackButton" Text="Back" Clicked="BackButton_Clicked" />
+            </StackLayout>
+        </Grid>
 </ContentPage>
+

@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\dgand\source\repos\LearningSystemGUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-27T18:24:45.021</Modified>
+      <Modified>2023-04-28T01:41:59.571</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dgand\source\repos\LearningSystemGUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-27T04:49:44.482</Modified>
+      <Modified>2023-04-28T01:41:59.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dgand\source\repos\LearningSystemGUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\LearningSystemGUI.runtimeconfig.json">
       <PackagePath>LearningSystemGUI.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dgand\source\repos\LearningSystemGUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\LearningSystemGUI.dll">
       <PackagePath>LearningSystemGUI.dll</PackagePath>
-      <Modified>2023-04-27T04:49:42.810</Modified>
+      <Modified>2023-04-28T01:41:57.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dgand\source\repos\LearningSystemGUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>LearningSystemGUI.exe</PackagePath>
-      <Modified>2023-04-27T04:49:42.816</Modified>
+      <Modified>2023-04-28T01:41:57.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dgand\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.8\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1063,11 +1063,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dgand\source\repos\Library.Danvas3\bin\Debug\net6.0\Library.Danvas3.dll">
       <PackagePath>Library.Danvas3.dll</PackagePath>
-      <Modified>2023-04-27T03:45:40.835</Modified>
+      <Modified>2023-04-28T00:01:55.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dgand\source\repos\LearningSystemGUI\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\LearningSystemGUI.deps.json">
       <PackagePath>LearningSystemGUI.deps.json</PackagePath>
-      <Modified>2023-04-27T18:24:44.728</Modified>
+      <Modified>2023-04-28T01:41:59.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.486\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

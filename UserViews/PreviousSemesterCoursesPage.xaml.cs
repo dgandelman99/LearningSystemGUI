@@ -45,4 +45,10 @@ public partial class PreviousSemesterCoursesPage : ContentPage
         PreviousSemesterCoursesListView.SelectedItem = null;
     }
 
+    private async void BackButton_Clicked(object sender, System.EventArgs e)
+    {
+        await Navigation.PopAsync();
+    }
+
+
 }
